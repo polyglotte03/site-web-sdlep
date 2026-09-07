@@ -28,14 +28,6 @@ quel sur Netlify.
    - **Password Protection** intégrée de Netlify (offre payante, protège la page
      entière avant même qu'elle ne soit chargée)
 
-2. **Confirmer le lien du tableau de bord Choléra.** Le texte transmis contenait
-   une incohérence : le texte affiché du lien pointait vers
-   `dashboard-cholera.netlify.app` mais l'adresse réelle du lien était identique
-   à celle de la surveillance événementielle (`dashboard-sbc.netlify.app`). En
-   attendant confirmation, le site utilise `dashboard-sbc.netlify.app` pour les
-   deux cartes, avec un avertissement visible sur la carte Choléra. Cherchez
-   `Lien à confirmer` dans `index.html` (2 occurrences) pour corriger.
-
 ## Déploiement sur Netlify
 
 1. Poussez ce dépôt sur `github.com/polyglotte03/site-web-sdlep` (déjà fait si vous
