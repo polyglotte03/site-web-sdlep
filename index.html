@@ -176,15 +176,6 @@
 
   /* ============ TOOLS / DASHBOARDS ============ */
   #outils{ background:var(--grey-lighter); }
-  .status-legend{
-    display:flex; align-items:center; gap:22px; flex-wrap:wrap;
-    padding:14px 20px; background:var(--white); border:1px solid var(--grey-line); border-radius:6px;
-    margin-bottom:44px; font-size:13.5px;
-  }
-  .legend-label{ color:#5B5B5B; font-weight:600; }
-  .legend-item{ display:inline-flex; align-items:center; gap:8px; color:var(--ink); }
-  .legend-item .swatch{ width:13px; height:13px; border-radius:3px; display:inline-block; border:1px solid rgba(0,0,0,0.12); }
-  @media (max-width:640px){ .status-legend{ gap:14px 20px; } }
   .tools-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
   @media (max-width:940px){ .tools-grid{ grid-template-columns:1fr; max-width:460px; margin:0 auto;} }
   .tool-card{
@@ -275,7 +266,6 @@
 <section id="mission">
   <div class="container">
     <div class="section-head reveal">
-      <div class="eyebrow">Article 56 du décret n° 2013/093</div>
       <h2>Une mission de veille, de préparation et de riposte</h2>
       <p>Placée sous l'autorité d'un Sous-Directeur, la SDLEP pilote l'ensemble du dispositif national de surveillance intégrée des maladies et de riposte aux épidémies.</p>
     </div>
@@ -296,7 +286,6 @@
 <section id="organisation">
   <div class="container">
     <div class="section-head reveal">
-      <div class="eyebrow">Articles 56 à 58</div>
       <h2>Organisation interne</h2>
       <p>La Sous-direction comprend deux services, chacun structuré en deux bureaux opérationnels.</p>
     </div>
@@ -333,14 +322,6 @@
       <div class="eyebrow">Systèmes d'information</div>
       <h2>Nos outils de surveillance numérique</h2>
       <p>Trois tableaux de bord en ligne, mis à jour en continu, pour suivre la situation épidémiologique nationale.</p>
-    </div>
-
-    <div class="status-legend reveal">
-      <span class="legend-label">Niveaux utilisés dans nos tableaux de bord :</span>
-      <span class="legend-item"><span class="swatch" style="background:#808080;"></span>Aucune donnée</span>
-      <span class="legend-item"><span class="swatch" style="background:#008000;"></span>Normal</span>
-      <span class="legend-item"><span class="swatch" style="background:#FFFF00;"></span>Vigilance</span>
-      <span class="legend-item"><span class="swatch" style="background:#FF0000;"></span>Alerte</span>
     </div>
 
     <div class="tools-grid reveal">
